@@ -13,7 +13,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
 
     
 });
-emailjs.send('service_i7tubtq', 'template_g9unqoo', formData)
+emailjs.send('service_bnjallm', 'template_g9unqoo', formData)
         .then(function(response) {
             
             console.location.href = 'successpge.html';
@@ -23,4 +23,5 @@ emailjs.send('service_i7tubtq', 'template_g9unqoo', formData)
             console.error('Failed to send email:', error);
            
         });
+
 
